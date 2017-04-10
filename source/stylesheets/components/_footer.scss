@@ -1,0 +1,25 @@
+/* Card design */
+#footer {
+  background: #535353;
+  padding: 30px 0;
+  color: #CCCCCC;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.fa {
+  display: inline-block;
+  // font: normal normal normal 14px/1 FontAwesome;
+  font-size: 25px;
+  transition: all .08s ease; /*could just be done to color, but would miss that cool growing effect*/
+}
+.big-icon {
+  font-size: 28px !important;
+}
